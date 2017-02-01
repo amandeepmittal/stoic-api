@@ -1,5 +1,5 @@
-var expect = require('chai').expect;
-var stoicApi = require('./index');
+const  expect = require('chai').expect;
+const stoicApi = require('./index');
 
 describe('stoicApi', function () {
     describe('all', function () {

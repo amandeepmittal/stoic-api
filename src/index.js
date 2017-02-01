@@ -1,6 +1,8 @@
-var uniqueRandomArray = require('unique-random-array');
-var stoicApi = require('./stoicapi');
-var getRandomItem = uniqueRandomArray(stoicApi);
+'use strict';
+
+const uniqueRandomArray = require('unique-random-array');
+const stoicApi = require('./stoicapi');
+const getRandomItem = uniqueRandomArray(stoicApi);
 
 module.exports = {
     all: stoicApi,
@@ -8,11 +10,11 @@ module.exports = {
 };
 
 function random(number) {
-    if(number === undefined) {
+    if (number === undefined) {
         return getRandomItem();
     } else {
         var randomItems = [];
-        for(var i = 0; i < number; i++) {
+        for (var i = 0; i < number; i++) {
             randomItems.push(getRandomItem());
         }
         return randomItems;

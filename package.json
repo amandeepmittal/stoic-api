@@ -2,7 +2,7 @@
   "name": "stoic-api",
   "version": "1.0.1",
   "description": "Get random quotes from Stoic API",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "check-coverage": "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
     "commit": "git-cz",
