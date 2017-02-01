@@ -2,4 +2,4 @@
 
 const stoicApi = require('../src/index');
 
-console.log(stoicApi());
+console.log(stoicApi.random());
