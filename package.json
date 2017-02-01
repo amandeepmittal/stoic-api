@@ -1,0 +1,23 @@
+{
+  "name": "stoic-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandeepmittal/stoic-api.git"
+  },
+  "keywords": [],
+  "author": "Aman Mittal <amandeepmittal@live.com> (http://amandeepmittal.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amandeepmittal/stoic-api/issues"
+  },
+  "homepage": "https://github.com/amandeepmittal/stoic-api#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
