@@ -1,6 +1,6 @@
 {
   "name": "stoic-api",
-  "version": "0.0.0-semantic-release",
+  "version": "1.0.1",
   "description": "Get random quotes from Stoic API",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,7 @@
     "commit": "git-cz",
     "test": "mocha src/index.test.js -w",
     "test:single": "istanbul cover -x *.test.js _mocha -- -R spec src/index.test.js",
-    "report-coverage": "cat ./coverage/lcov.info | codecov",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "report-coverage": "cat ./coverage/lcov.info | codecov"
   },
   "repository": {
     "type": "git",
