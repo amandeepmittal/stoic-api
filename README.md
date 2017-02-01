@@ -7,8 +7,31 @@ Get random Stoic Quotes, used in tweetback-bot
 [![npm](https://img.shields.io/npm/v/stoic-api.svg?style=flat-square)](https://www.npmjs.com/package/stoic-api)
 
 ## Usage
-* CLI: 
+
+#### CLI: 
 ``` shell
-$ npm install --save stoic-api
+$ npm install -g stoic-api
 $ stoicapi
 ```
+
+#### Require the module in your Node.js application
+
+* To install this package, save it as a dependency in package.json file:
+
+```shell
+$ npm install --save stoic-api
+```
+
+* Require the module in your Node.js application:
+
+```javascript
+const stoicapi = require('stoicapi');
+```
+
+
+
+---
+
+# License
+
+MIT Aman Mittal
