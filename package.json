@@ -1,14 +1,16 @@
 {
   "name": "stoic-api",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha src/index.test.js -w"
+    "commit": "git-cz",
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amandeepmittal/stoic-api.git"
+    "url": "https://github.com/amandeepmittal/stoic-api.git"
   },
   "keywords": [],
   "author": "Aman Mittal <amandeepmittal@live.com> (http://amandeepmittal.github.io/)",
@@ -22,6 +24,12 @@
   },
   "devDependencies": {
     "chai": "3.5.0",
-    "mocha": "3.1.2"
+    "commitizen": "2.8.6",
+    "cz-conventional-changelog": "1.2.0",
+    "mocha": "3.1.2",
+    "semantic-release": "^6.3.2"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }
