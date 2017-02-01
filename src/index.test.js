@@ -1,4 +1,4 @@
-const  expect = require('chai').expect;
+const expect = require('chai').expect;
 const stoicApi = require('./index');
 
 describe('stoicApi', function () {
@@ -16,12 +16,12 @@ describe('stoicApi', function () {
 
     describe('random', function () {
         it('should return a random item from stoicApi.all', function () {
-            var randomItem = stoicApi.random();
+            let randomItem = stoicApi.random();
             expect(stoicApi.all).to.include(randomItem);
         });
         
         it('should return an array of random items if passed a number', function () {
-            var randomItems = stoicApi.random(3);
+            let randomItems = stoicApi.random(3);
             expect(randomItems).to.have.length(3);
             randomItems.forEach(function (item) {
                 expect(stoicApi.all).to.include(item);
