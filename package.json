@@ -1,10 +1,10 @@
 {
   "name": "stoic-api",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js -w"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "homepage": "https://github.com/amandeepmittal/stoic-api#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.1.2"
   }
 }
