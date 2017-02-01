@@ -14,7 +14,7 @@ $ npm install -g stoic-api
 $ stoicapi
 ```
 
-#### Require the module in your Node.js application
+#### Use module in JavaScript app
 
 * To install this package, save it as a dependency in package.json file:
 
@@ -25,7 +25,7 @@ $ npm install --save stoic-api
 * Require the module in your Node.js application:
 
 ```javascript
-const stoicapi = require('stoicapi');
+const stoicapi = require('stoicapi').random();
 ```
 
 
