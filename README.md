@@ -1,4 +1,6 @@
 # stoic-api
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/amandeepmittal/stoic-api.svg)](https://greenkeeper.io/)
 Get random Stoic Quotes, used in tweetback-bot
 
 [![Travis](https://img.shields.io/travis/amandeepmittal/stoic-api.svg?style=flat-square)](https://travis-ci.org/amandeepmittal/stoic-api)
