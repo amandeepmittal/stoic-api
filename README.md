@@ -1,8 +1,5 @@
 # stoic-api
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/amandeepmittal/stoic-api.svg)](https://greenkeeper.io/)
-Get random Stoic Quotes, used in tweetback-bot
-
 [![Travis](https://img.shields.io/travis/amandeepmittal/stoic-api.svg?style=flat-square)](https://travis-ci.org/amandeepmittal/stoic-api)
 [![Codecov](https://img.shields.io/codecov/c/github/amandeepmittal/stoic-api.svg?style=flat-square)](https://codecov.io/gh/amandeepmittal/stoic-api)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
@@ -10,8 +7,9 @@ Get random Stoic Quotes, used in tweetback-bot
 
 ## Usage
 
-#### CLI: 
-``` shell
+#### CLI:
+
+```shell
 $ npm install -g stoic-api
 $ stoicapi
 ```
@@ -27,10 +25,8 @@ $ npm install --save stoic-api
 * Require the module in your Node.js application:
 
 ```javascript
-const stoicapi = require('stoicapi').random();
+const stoicapi = require("stoicapi").random();
 ```
-
-
 
 ---
 
